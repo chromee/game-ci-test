@@ -7,3 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: DeNA/unity-meta-check@v3
+    with:
+      projectPath: ./game-ci-test
