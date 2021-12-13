@@ -72,8 +72,3 @@ InitTestScene*.unity
 
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
-
-## HoloGamePrototype file ##
-Database.sqlite
-data.dat
-Assets/Match Up/Server/Source Code~
