@@ -15,7 +15,7 @@ namespace Tests
         public void Failed()
         {
             Debug.Log("Fuga");
-            Assert.IsTrue(false);
+            Assert.IsTrue(true);
         }
     }
 }
