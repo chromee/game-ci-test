@@ -1,10 +1,12 @@
 
-name: Print User
+name: Command Test
 on: [workflow_dispatch, pull_request]
 
 jobs:
-  print-username:
+  command-test:
     runs-on: self-hosted
     steps:
-      - name: Print the input name to STDOUT
+      - name: Print username
         run: echo The username is $USER
+      - name: exec docker ps
+        run: docker ps
