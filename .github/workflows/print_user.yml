@@ -3,7 +3,7 @@ name: Print User
 on: [workflow_dispatch, pull_request]
 
 jobs:
-  meta-check:
+  print-username:
     runs-on: self-hosted
     steps:
       - name: Print the input name to STDOUT
