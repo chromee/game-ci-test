@@ -1,0 +1,10 @@
+
+name: Print User
+on: [workflow_dispatch, pull_request]
+
+jobs:
+  meta-check:
+    runs-on: self-hosted
+    steps:
+      - name: Print the input name to STDOUT
+        run: echo The username is ${{ inputs.username }}
